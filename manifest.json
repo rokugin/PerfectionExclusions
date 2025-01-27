@@ -1,0 +1,21 @@
+{
+  /*
+   | This file is automatically updated by ModManifestBuilder
+   | when the project is compiled.
+   | 
+   | Changes made to this file may be overwritten.
+   | 
+   */
+  "$schema": "https://smapi.io/schemas/manifest.json",
+  "UniqueID": "rokugin.perfectionexclusions",
+  "Name": "Perfection Exclusions",
+  "Author": "rokugin",
+  "Version": "1.0.0",
+  "Description": "Framework to remove cooking and crafting recipes from counting towards perfection.",
+  "MinimumApiVersion": "4.1.0",
+  "MinimumGameVersion": "1.6.15",
+  "EntryDll": "PerfectionExclusions.dll",
+  "UpdateKeys": [
+    "Nexus:-1"
+  ]
+}
