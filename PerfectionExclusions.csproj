@@ -16,6 +16,12 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Compile Remove="docs\**" />
+	  <EmbeddedResource Remove="docs\**" />
+	  <None Remove="docs\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove=".gitattributes" />
 	  <None Remove=".gitignore" />
 	  <None Remove="LICENSE" />
@@ -25,5 +31,7 @@
 		<PackageReference Include="Leclair.Stardew.ModManifestBuilder" Version="2.4.1" />
 		<PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.3.2" />
 	</ItemGroup>
+
+	<ProjectExtensions><VisualStudio><UserProperties manifest_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
 </Project>
