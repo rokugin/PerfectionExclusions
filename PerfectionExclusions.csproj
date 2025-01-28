@@ -10,21 +10,21 @@
 		<Description>Framework to remove cooking and crafting recipes from counting towards perfection.</Description>
 		<MinimumApiVersion>4.1.0</MinimumApiVersion>
 		<MinimumGameVersion>1.6.15</MinimumGameVersion>
-		<UpdateKeys>Nexus:-1</UpdateKeys>
+		<UpdateKeys>Nexus:31247</UpdateKeys>
 		<UniqueId>rokugin.perfectionexclusions</UniqueId>
 		<Version>1.0.0</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <Compile Remove="docs\**" />
-	  <EmbeddedResource Remove="docs\**" />
-	  <None Remove="docs\**" />
+		<Compile Remove="docs\**" />
+		<EmbeddedResource Remove="docs\**" />
+		<None Remove="docs\**" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove=".gitattributes" />
-	  <None Remove=".gitignore" />
-	  <None Remove="LICENSE" />
+		<None Remove=".gitattributes" />
+		<None Remove=".gitignore" />
+		<None Remove="LICENSE" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -32,6 +32,10 @@
 		<PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.3.2" />
 	</ItemGroup>
 
-	<ProjectExtensions><VisualStudio><UserProperties manifest_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+	<ProjectExtensions>
+		<VisualStudio>
+			<UserProperties manifest_1json__JsonSchema="" />
+		</VisualStudio>
+	</ProjectExtensions>
 
 </Project>
